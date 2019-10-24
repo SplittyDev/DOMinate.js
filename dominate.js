@@ -143,26 +143,6 @@ class DOMinate {
     
     // Return the finished element
     return el;
-    
-    // // Old code, preserved for historic reasons
-    // // Parse query
-    // const rxName = '(?<name>[_a-z]+)';
-    // const rxAttr = '(?<attr>(?:\\[[_a-z\\-]+(?:=[ #_a-z0-9\\-]+)?\\])+)?';
-    // const rxCls = '(?<cls>(?:\\.[_a-z]+)*)';
-    // const rxId = '(?:#(?<id>[_a-z]+))?';
-    // const rxRaw = `${rxName}${rxAttr}${rxCls}${rxId}`;
-    // const rx = new RegExp(rxRaw, 'ig');
-    // const [_, _name, _attr, _cls, _id] = rx.exec(q);
-    // console.log(`{name: ${_name}; attr: ${_attr}; cls: ${_cls}; id: ${_id}`);
-    // const attr = _attr
-    //   .replace(/\[([_a-z]+)(?:=(?:(.*?)|(?:"(.*?)")))?\]/ig, '$1=$2;')
-    //   .split(';').filter(x => x.length > 0).map(x => x.split('=', 2));
-    // const cls = _cls.split('.').filter(x => x.length > 0);
-    // const el = document.createElement(_name);
-    // attr.forEach(([k, v]) => el.setAttribute(k, v));
-    // el.classList.add(...cls);
-    // el.id = _id || el.id;
-    // return el;
   }
   
   static one(el) {
