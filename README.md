@@ -1,7 +1,7 @@
 # DOMinate.js
 > HTML element creation in JS using CSS selectors
 
-Dominate is a small one-file library for creating HTML elements.  
+Dominate is a small (~113 SLOC) one-file library for creating HTML elements.  
 It works its magic by parsing CSS selectors into DOM elements.
 
 ## Example
