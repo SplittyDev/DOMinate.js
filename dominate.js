@@ -178,19 +178,3 @@ class DOMinate {
     DOMinate.many(...elements).map(el => baseEl.appendChild(el));
   }
 }
-
-// Create basic form
-// const elContainer = DOMinate.one('div.container');
-// const elForm = DOMinate.one('form[action=#][method=POST]');
-// DOMinate.append(elForm,
-//   'h1: Checkout',
-//   'br',
-//   'label[for=firstname]: Firstname:',
-//   'input[type=text][placeholder=First Name][required]#firstname',
-//   'label[for=lastname]: Lastname:',
-//   'input[type=text][placeholder=Last Name][required]#lastname',
-//   'input[type=text][placeholder=Zip][required]#zip'
-// );
-// DOMinate.append(elForm, 'input[type=submit]');
-// DOMinate.append(elContainer, elForm);
-// DOMinate.append('body', elContainer);
