@@ -14,11 +14,11 @@ const el = DOMinate.one('input[required][type=email].foo#email');
 
 Advanced example (a fully functioning form):
 ```js
-// Create a container for the form
-const elContainer = DOMinate.one('div.container');
-
-// Create the form element
-const elForm = DOMinate.one('form[action=#][method=POST]');
+// Create a container and a form
+const [elContainer, elForm] = DOMinate.many(
+  'div.container',
+  'form[action=#][method=POST]'
+);
 
 // Add form elements to the form
 DOMinate.append(elForm,
