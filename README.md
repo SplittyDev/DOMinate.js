@@ -1,8 +1,21 @@
 # DOMinate.js
 > HTML element creation in JS using CSS selectors
 
+![GitHub](https://img.shields.io/github/license/splittydev/dominate.js?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/dominate.js?style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/splittydev/dominate.js/dist/dominate.js?style=for-the-badge)
+
 Dominate is a small (~113 SLOC) one-file library for creating HTML elements.  
 It works its magic by parsing CSS selectors into DOM elements.
+
+## Usage
+
+You can include DOMinate.js in your project by pasting the following HTML code:
+```html
+<script defer src="https://cdn.jsdelivr.net/npm/dominate.js/dist/dominate.js"></script>
+```
+
+The `DOMinate` object will be available globally.
 
 ## Example
 
