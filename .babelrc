@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env", {
+                "targets": {
+                    "browsers": "> 0.25%, not dead"
+                }
+            },
+        ],
+        "minify"
+    ],
+    "plugins": [
+		"@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-class-properties"
+    ],
+    "sourceMaps": true
+}
