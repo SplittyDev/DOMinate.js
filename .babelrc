@@ -14,5 +14,6 @@
         "@babel/plugin-proposal-class-properties"
     ],
     "sourceMaps": true,
-    "comments": false
+    "comments": false,
+    "compact": true
 }
