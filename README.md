@@ -1,5 +1,5 @@
 # DOMinate.js
-> HTML element creation in JS using CSS selectors
+> Create DOM elements in JS using CSS selectors.
 
 ![GitHub](https://img.shields.io/github/license/splittydev/dominate.js?style=for-the-badge)
 ![npm](https://img.shields.io/npm/v/dominate.js?style=for-the-badge)
