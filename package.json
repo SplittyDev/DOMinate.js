@@ -1,6 +1,6 @@
 {
   "name": "dominate.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create DOM elements in JS using CSS selectors",
   "browser": "dist/dominate.js",
   "scripts": {
